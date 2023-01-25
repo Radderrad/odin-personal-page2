@@ -5,3 +5,7 @@ body {
     padding: 0;
 }
 
+.body div {
+    height: 250px;
+    border: 2px solid black; /* Added border for debugging */
+}
