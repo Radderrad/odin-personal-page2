@@ -3,11 +3,12 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .body div {
-    height: 250px;
-    border: 2px solid black; /* Added border for debugging */
+    height: 350px;
+    border: 2px solid rgb(255, 0, 0); /* Added border for debugging */
 }
 
 .links div {
@@ -26,4 +27,59 @@ ul, a {
     gap: 16px;
     list-style-type: none;
     text-decoration: none;
+}
+
+.one div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #1F2937;
+
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 250px;
+    width: 400px;
+    margin-left: -28em;
+}
+
+h1, p {
+    margin-top: -0.5em;
+    width: 400px;
+    padding-left: 0px;
+    align-self: flex-start;
+    margin-left: 180px;
+}
+
+h1 {
+    font-size: 48px;
+
+}
+p {
+
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-left: 48px;
+}
+
+.footer {
+    height: 50px;
+}
+
+.signup {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 225px;
+    background-color: #3882f6;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 22px;
 }
