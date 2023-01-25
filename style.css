@@ -9,3 +9,21 @@ body {
     height: 250px;
     border: 2px solid black; /* Added border for debugging */
 }
+
+.links div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #1F2937;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul, a {
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    gap: 16px;
+    list-style-type: none;
+    text-decoration: none;
+}
